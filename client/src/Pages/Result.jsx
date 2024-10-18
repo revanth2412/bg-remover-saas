@@ -41,7 +41,7 @@ const Result = () => {
       {/* {button} */}
      { resultImage && <div className='flex justify-end sm:justify-end items-center flex-wrap gap-4 mt-6'>
         <button className='px-8 py-2.5 text-violet-600 text-sm border rounded-full hover:scale-105 transition-all duration-700'>Try another image</button>
-        <a href={resultImage} download className='px-8 py-2.5 text-white text-sm bg-gradient-to-r from-violet-600 to-fuchsia-500 rounded-full hover:scale-105 transition-all duration-700' >Download image</a>
+        <a href={resultImage} download className='px-8 py-2.5 text-white text-sm bg-gradient-to-r from-blue-800 to-blue-300 rounded-full hover:scale-105 transition-all duration-700' >Download image</a>
       </div> 
       }
       </div>

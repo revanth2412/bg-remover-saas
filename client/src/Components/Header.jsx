@@ -12,13 +12,13 @@ const Header = () => {
       {/* {left side} */}
       <div >
         <h1 className='text-4xl xl:text-5xl 2xl:text-6xl font-bold text-neutral-700 leading-tight'>
-            Remove the <br className='max-md:hidden' /> <span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'>background</span>
-              from <br className='max-md:hidden'/>images for free.</h1>
+            AI powered <br className='max-md:hidden' /> <span className='bg-gradient-to-r from-blue-800 to-blue-300 bg-clip-text text-transparent'>background </span>
+              remover <br className='max-md:hidden'/>for free !.</h1>
         <p className='my-6 text-[15px] text-gray-500'>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br className='max-sm:hidden'/> Lorem Ipsum has been the industry's standard dummy text ever.</p>
+            Instantly remove the background from any of the image using AI.<br className='max-sm:hidden'/> Simply signin and upload your image to remove the background.</p>
       <div>
         <input type="file"  id='upload1' accept='image/*' hidden onChange={ e => removeBg(e.target.files[0])}/>
-        <label htmlFor="upload1" className='inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-r from-violet-500 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700'>
+        <label htmlFor="upload1" className='inline-flex gap-3 px-8 py-3.5 rounded-full cursor-pointer bg-gradient-to-r  from-blue-800 to-blue-300  m-auto hover:scale-105 transition-all duration-700'>
             <img src={assets.upload_btn_icon} alt="" className='w-5'/>
             <p className='text-white text-sm'>Upload your image</p>
         </label>

@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className='flex items-center justify-between mx-4 py-3 lg:mx-44'>
         <Link to='/'>
-        <img src={assets.logo} alt="" className='w-32 sm:w-44'/>
+        <img src={assets.logo} alt="" className='w-32 sm:w-44  border border-gray-400 px-6 py-2 rounded-full mb-2 shadow-lg'/>
         </Link>
         {
           isSignedIn?
